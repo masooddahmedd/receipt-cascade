@@ -69,6 +69,7 @@ python -m venv .venv
 .venv/Scripts/python.exe -m pip install -r requirements.txt   # use .venv/bin/python on Linux/macOS
 make eval    # replays cache/, no API key needed, rewrites results, curves and out/
 make test
+python make_table_image.py   # renders table_layout.png from results_layout.json
 ```
 
 The CORD v2 validation and test parquet files go in `data/data/` (download from the dataset page linked below). To rerun against the API instead of the cache, copy `.env.example` to `.env`, add an OpenAI key, and delete `cache/llm/`. A full run costs a few dollars.
