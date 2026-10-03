@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-043",
+ "image_sha256": "8866ed24092f986e451e7a1bc7caac6c3deff6014376a08d445b25597311bb9c",
+ "overall_confidence": 0.7175,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Cheese Tart",
+     "quantity": 6,
+     "price": "165000.00"
+    }
+   ],
+   "confidence": 0.9746,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "Rp15000.00",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "Rp15000.00",
+   "confidence": 0.8257,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "Rp200000.00",
+   "confidence": 0.7175,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

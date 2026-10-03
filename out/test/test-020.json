@@ -1,0 +1,69 @@
+{
+ "receipt_id": "test-020",
+ "image_sha256": "6213439292eb4c2ad7e04afab6bb5bc7d1d5925d18dc392c36f233d394ca7c19",
+ "overall_confidence": 0.1973,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "cashew nuts chkn",
+     "quantity": 1,
+     "price": "64,500"
+    },
+    {
+     "name": "garlic pepper beef",
+     "quantity": 1,
+     "price": "69,500"
+    },
+    {
+     "name": "red curry beef",
+     "quantity": 1,
+     "price": "64,500"
+    },
+    {
+     "name": "phad thai",
+     "quantity": 1,
+     "price": "64,500"
+    },
+    {
+     "name": "steamed rice",
+     "quantity": 4,
+     "price": "47,600"
+    }
+   ],
+   "confidence": 0.748,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "325,600",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.1973,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "377,659",
+   "confidence": 0.5283,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

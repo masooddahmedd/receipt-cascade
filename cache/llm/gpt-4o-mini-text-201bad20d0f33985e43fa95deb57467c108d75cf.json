@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Corn Flakes Cookies", "quantity": 1, "price": "Rp.56.000"}, {"name": "Chokoreto Cookies", "quantity": 1, "price": "Rp.62.000"}, {"name": "plastic Bag Medium", "quantity": 1, "price": "Rp.0"}], "subtotal": "Rp.118.000", "tax": null, "total": "Rp.118.000"}, "usage": {"in": 369, "out": 89, "seconds": 1.85}}

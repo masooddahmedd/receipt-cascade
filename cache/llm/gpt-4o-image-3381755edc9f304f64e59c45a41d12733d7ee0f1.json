@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "SOTO MEDAN+NASI", "quantity": 1, "price": "53.500"}, {"name": "GADO-GADO", "quantity": 1, "price": "34.500"}, {"name": "SOTO BETAWI + NASI", "quantity": 1, "price": "57.500"}], "subtotal": "151.500", "tax": null, "total": "174.983"}, "usage": {"in": 1044, "out": 88, "seconds": 1.49}}

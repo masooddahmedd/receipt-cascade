@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-005",
+ "image_sha256": "0b63b666b54ea615d1d05733ee2c6fc24f20e1a6c77b333872fa80fff28b2c48",
+ "overall_confidence": 0.8289,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "TRAD KY TOAST CARTE",
+     "quantity": 1,
+     "price": "28.182"
+    }
+   ],
+   "confidence": 0.9746,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "28.182",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "2.818",
+   "confidence": 0.8289,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "31.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Gojek Chicken", "quantity": 1, "price": "95,000"}, {"name": "Gojek Chicken", "quantity": 1, "price": "180,000"}, {"name": "Gojek French Fries", "quantity": 1, "price": "70,000"}], "subtotal": "345,000", "tax": "34,500", "total": "379,500"}, "usage": {"in": 1044, "out": 84, "seconds": 1.72}}

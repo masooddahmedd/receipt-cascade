@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-002",
+ "image_sha256": "571ac6af26e75de8c06747a8c536c778f19a4562879090813571eddc74603d34",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "OSHINE MT(L)",
+     "quantity": 1,
+     "price": "24.000"
+    },
+    {
+     "name": "UCONUI JELLY (L)",
+     "quantity": 1,
+     "price": "4,000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "28,000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "28.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

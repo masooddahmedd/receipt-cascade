@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "Bubur Ayam Pak Iban", "date": "06/05/2019", "line_items": [{"name": "BUBUR GO", "quantity": 2, "price": "40.000"}, {"name": "PUYUH GO", "quantity": 1, "price": "6.000"}, {"name": "SATE ATI GO", "quantity": 3, "price": "9.000"}], "subtotal": null, "tax": null, "total": "55.000"}, "usage": {"in": 704, "out": 91, "seconds": 1.62}}

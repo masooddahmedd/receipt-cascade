@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-052",
+ "image_sha256": "37e9b779d3316249de7c622d77a46abf9ddc684f2cf55cd33bcecc311ee1cef7",
+ "overall_confidence": 0.7175,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "THAI ICED TEA",
+     "quantity": 1,
+     "price": "20.000"
+    },
+    {
+     "name": "THAI ICED TEA",
+     "quantity": 1,
+     "price": "20.000"
+    }
+   ],
+   "confidence": 0.9364,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "40.000",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "100.000",
+   "confidence": 0.7175,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

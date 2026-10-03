@@ -48,12 +48,19 @@ def prepare_image(image_bytes: bytes) -> str:
 
 def cache_path(model: str, temperature: float, run: int, image_sha256: str, mode: str):
     key = hashlib.sha1(
-        f"{PROMPT_VERSION}|{mode}|{model}|{temperature}|{run}|{image_sha256}".encode())
+        f"{PROMPT_VERSION}|{mode}|{model}|{temperature}|{run}|{image_sha256}".encode()
+    )
     return CACHE_DIR / "llm" / f"{model}-{mode}-{key.hexdigest()}.json"
 
 
-def extract(image_bytes: bytes, image_sha256: str, model: str, temperature: float, run: int,
-            ocr: str | None = None):
+def extract(
+    image_bytes: bytes,
+    image_sha256: str,
+    model: str,
+    temperature: float,
+    run: int,
+    ocr: str | None = None,
+):
     # ocr given means text-only mode (Tier 1); otherwise the model gets the image (Tier 2).
     path = cache_path(model, temperature, run, image_sha256, "text" if ocr else "image")
     if path.exists():
@@ -66,8 +73,10 @@ def extract(image_bytes: bytes, image_sha256: str, model: str, temperature: floa
         b64 = prepare_image(image_bytes)
         content = [
             {"type": "text", "text": PROMPT},
-            {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}",
-                                                "detail": "high"}},
+            {
+                "type": "image_url",
+                "image_url": {"url": f"data:image/jpeg;base64,{b64}", "detail": "high"},
+            },
         ]
     started = time.time()
     resp = client().chat.completions.parse(
@@ -77,8 +86,11 @@ def extract(image_bytes: bytes, image_sha256: str, model: str, temperature: floa
         messages=[{"role": "user", "content": content}],
     )
     parsed = resp.choices[0].message.parsed
-    usage = {"in": resp.usage.prompt_tokens, "out": resp.usage.completion_tokens,
-             "seconds": round(time.time() - started, 2)}
+    usage = {
+        "in": resp.usage.prompt_tokens,
+        "out": resp.usage.completion_tokens,
+        "seconds": round(time.time() - started, 2),
+    }
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps({"parsed": parsed.model_dump(), "usage": usage}), encoding="utf-8")
     return parsed, usage

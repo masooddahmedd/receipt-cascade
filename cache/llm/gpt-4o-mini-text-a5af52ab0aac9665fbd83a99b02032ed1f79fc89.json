@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Ovaltine", "quantity": 1, "price": "18,181"}], "subtotal": "20,000", "tax": "10% Tax Included", "total": "20,000"}, "usage": {"in": 345, "out": 49, "seconds": 1.51}}

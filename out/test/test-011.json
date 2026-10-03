@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-011",
+ "image_sha256": "d92479ab212713e7a65e56aacc5e68c0713597476608cbc394d997971043010b",
+ "overall_confidence": 0.7419,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "BANABERRY FRESH CREAM CAK",
+     "quantity": 1,
+     "price": "230,000"
+    }
+   ],
+   "confidence": 0.7661,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "230,000",
+   "confidence": 0.9343,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "230.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

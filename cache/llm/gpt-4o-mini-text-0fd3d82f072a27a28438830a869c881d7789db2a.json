@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Mango Lemon Tea", "quantity": 1, "price": "Rp29090"}, {"name": "Sliders Set", "quantity": 1, "price": "Rp113.636"}, {"name": "Chicken Vege Rice Bowl", "quantity": 1, "price": "Rp86,363"}], "subtotal": "Rp194,726", "tax": "Rp20,446", "total": "Rp224,908"}, "usage": {"in": 380, "out": 88, "seconds": 1.84}}

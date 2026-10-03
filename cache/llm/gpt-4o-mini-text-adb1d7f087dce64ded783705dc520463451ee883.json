@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Hulk Topper Package", "quantity": 1, "price": "100.000"}], "subtotal": "100.000", "tax": null, "total": "100.000"}, "usage": {"in": 320, "out": 48, "seconds": 1.05}}

@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "REDBEAN BREAD", "quantity": 1, "price": "9,000"}, {"name": "FRANKFRUT SAUSAGE ROLL", "quantity": 1, "price": "12,000"}], "subtotal": null, "tax": null, "total": "21,000"}, "usage": {"in": 1044, "out": 68, "seconds": 2.29}}

@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "Hepedegit", "date": null, "line_items": [{"name": "Pecel Komplit + Nasi", "quantity": 1, "price": "42.000"}, {"name": "SOTO KUDUS", "quantity": 1, "price": "47.000"}, {"name": "Mineral water", "quantity": 2, "price": "18.000"}], "subtotal": "107.000", "tax": "11.235", "total": "123.585"}, "usage": {"in": 376, "out": 91, "seconds": 1.64}}

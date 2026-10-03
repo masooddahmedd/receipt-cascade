@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-015",
+ "image_sha256": "f1cd67a7d67d04ba8d5b685553b1b5addbf2039d5954ab08c92139c0ad88a796",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Lemon Tea (L)",
+     "quantity": 1,
+     "price": "25.000"
+    },
+    {
+     "name": "Caramel Small",
+     "quantity": 1,
+     "price": "38.000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "63.000",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "63.000",
+   "confidence": 0.9898,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "XXI Caf\u00e9",
+   "confidence": 0.8844,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

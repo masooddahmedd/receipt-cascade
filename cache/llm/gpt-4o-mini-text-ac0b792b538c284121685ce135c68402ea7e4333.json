@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "GRAINS PAN BREAD", "quantity": 1, "price": "20,500"}, {"name": "ICED HIBISCUS LYCHEE TEA", "quantity": 1, "price": "37,000"}], "subtotal": null, "tax": null, "total": "57,500"}, "usage": {"in": 351, "out": 72, "seconds": 1.74}}

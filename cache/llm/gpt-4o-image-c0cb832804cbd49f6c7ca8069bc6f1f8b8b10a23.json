@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "FC Winger HC", "quantity": 1, "price": "20,000"}, {"name": "CHARGE TA", "quantity": 1, "price": "909"}], "subtotal": "20,909", "tax": "2,091", "total": "23,000"}, "usage": {"in": 1044, "out": 63, "seconds": 1.64}}

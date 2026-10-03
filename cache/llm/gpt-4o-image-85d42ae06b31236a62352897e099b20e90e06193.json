@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "BreadLife", "date": null, "line_items": [{"name": "Cheezemania", "quantity": 1, "price": "9,500"}, {"name": "Mamamia", "quantity": 1, "price": "12,500"}], "subtotal": "22,000", "tax": null, "total": "22,000"}, "usage": {"in": 1044, "out": 63, "seconds": 1.52}}

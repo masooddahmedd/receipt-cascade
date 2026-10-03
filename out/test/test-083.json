@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-083",
+ "image_sha256": "28a8c9e154f9971aaae01212e395618460e610da9eca8f82d05b9b5277eb8c7c",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "COOKIES AND CRERM",
+     "quantity": 1,
+     "price": "20,909"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "20.909",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "2.091",
+   "confidence": 0.8289,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "23,000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "Kenbali",
+   "confidence": 0.897,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

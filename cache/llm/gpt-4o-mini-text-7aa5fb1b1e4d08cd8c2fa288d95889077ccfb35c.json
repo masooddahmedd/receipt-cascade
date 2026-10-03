@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "LUNCH BOX ZP GET A/RED BAG & SPOO N.", "quantity": 8, "price": "243.000"}, {"name": "RICE CAGE 7L 4/CUP", "quantity": 5, "price": "195.000"}, {"name": "4 PCS", "quantity": 4, "price": "243,000"}], "subtotal": "1,944.000", "tax": "1,555.200", "total": "777-600"}, "usage": {"in": 417, "out": 102, "seconds": 1.97}}

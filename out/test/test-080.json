@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-080",
+ "image_sha256": "e37ed26e77e90f45a0ad33dcb9844c61808ad75e1f4f161debaeb1c45822c3f8",
+ "overall_confidence": 0.7419,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Viet Milk Coffee",
+     "quantity": 1,
+     "price": "25.000"
+    }
+   ],
+   "confidence": 0.9364,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "25.000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "25.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "CA PHE",
+   "confidence": 0.6353,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

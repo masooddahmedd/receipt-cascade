@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Snack Lestari A11", "quantity": 2, "price": "54,000"}, {"name": "Bakery Aneka Sisir banana, Pizza, yoko, Marmer, Daging, abon, Keju, cokelat, dll", "quantity": 2, "price": "14,000"}], "subtotal": null, "tax": null, "total": "68,000"}, "usage": {"in": 704, "out": 89, "seconds": 1.14}}

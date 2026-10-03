@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "A Fung", "date": null, "line_items": [{"name": "ISI CAMPUR", "quantity": 1, "price": "43,636"}, {"name": "A. MINERAL BOTOL", "quantity": 1, "price": "8,000"}], "subtotal": "51,636", "tax": "5,164", "total": "56,800"}, "usage": {"in": 1044, "out": 68, "seconds": 2.06}}

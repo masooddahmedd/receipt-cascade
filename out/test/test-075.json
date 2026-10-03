@@ -1,0 +1,74 @@
+{
+ "receipt_id": "test-075",
+ "image_sha256": "30005de028db6cf9f6bee01d7dcfbf07360186636f840c511ba40659b4b83184",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "CHOCO FUFF",
+     "quantity": 1,
+     "price": "29,091"
+    },
+    {
+     "name": "CREAMY BEEF CLS FTC",
+     "quantity": 1,
+     "price": "42,727"
+    },
+    {
+     "name": "NEW ORIENTAL CHK RICE",
+     "quantity": 1,
+     "price": "34.545"
+    },
+    {
+     "name": "LIPTON PITCHER",
+     "quantity": 1,
+     "price": "54,545"
+    },
+    {
+     "name": "SC/P SUPER SUFREME",
+     "quantity": 1,
+     "price": "47273"
+    },
+    {
+     "name": "CB/P BLACK PEPP BEEF",
+     "quantity": 1,
+     "price": "48,182"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "256.363",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "25,637",
+   "confidence": 0.8289,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "282,000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

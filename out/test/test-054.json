@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-054",
+ "image_sha256": "d29880f5c28ce8e8ab6ba2783231ecf216a71a3c8d61245183f66299b739065d",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "KACANG MERAH",
+     "quantity": 1,
+     "price": "10,000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "10,000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "10,000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-062",
+ "image_sha256": "bd0c6740660e5ca298761938570aed67136866eee672d92ca8e77a11d632ec36",
+ "overall_confidence": 0.325,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "XXI Java Tea (M)",
+     "quantity": 1,
+     "price": "18.000"
+    },
+    {
+     "name": "Combo 2",
+     "quantity": 1,
+     "price": "30.000"
+    }
+   ],
+   "confidence": 0.8026,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.325,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "50.000",
+   "confidence": 0.7175,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "XXI caf\u00e9",
+   "confidence": 0.8844,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

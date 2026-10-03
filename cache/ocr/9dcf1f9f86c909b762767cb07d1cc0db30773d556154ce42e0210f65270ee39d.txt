@@ -1,0 +1,24 @@
+1 RedVelvet Cheese sic
+38,000
+1 Chicken Baked Rice
+000
+1Fish n Chius
+0009
+1Mushroun Soup
+000
+1 Chanomile
+1 Iced Ted
+20,000
+SUBTOTAL
+238,000
+Service
+17,850
+PB1
+25585
+TOTAL
+Coupon
+100,000
+CASH
+200,000
+Change
+18,565

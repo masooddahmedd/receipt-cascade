@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-006",
+ "image_sha256": "1c091eb7436b3e5a813eb6492c0350ef4eb14e3fdad78d42da35df669c757292",
+ "overall_confidence": 0.325,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "EGG TART",
+     "quantity": 1,
+     "price": "13,000"
+    },
+    {
+     "name": "CHOCO CUS ARD PASTRY",
+     "quantity": 2,
+     "price": "24.000"
+    },
+    {
+     "name": "REDBEANBIREAD",
+     "quantity": 1,
+     "price": "9,000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.325,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "46,000",
+   "confidence": 0.9898,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

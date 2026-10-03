@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-079",
+ "image_sha256": "027f8ee65ccc34bad7908f1b5624b5128014e3a799499053fbf0d7f95fdfae16",
+ "overall_confidence": 0.5499,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Choco Bun",
+     "quantity": 1,
+     "price": "22.000"
+    },
+    {
+     "name": "Plastic Bag Small",
+     "quantity": 1,
+     "price": "0"
+    }
+   ],
+   "confidence": 0.5499,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "subtotal": {
+   "value": "22.000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "22.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

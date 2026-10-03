@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "PLASTIC BAG RED CENTRAL SI1", "quantity": 1, "price": "45,000.00"}, {"name": "COPIA 1/GB", "quantity": 1, "price": "18,000.00"}], "subtotal": "63,000.00", "tax": "0.00", "total": "63,000.00"}, "usage": {"in": 396, "out": 79, "seconds": 1.74}}

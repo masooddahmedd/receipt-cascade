@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "BAKSO BNGKS", "date": null, "line_items": [{"name": "B GORENGAN", "quantity": 1, "price": "6.000"}, {"name": "TL", "quantity": 1, "price": "21.000"}, {"name": "CASH", "quantity": 1, "price": "30.000"}, {"name": "CG", "quantity": 1, "price": "8.000"}], "subtotal": null, "tax": null, "total": null}, "usage": {"in": 340, "out": 92, "seconds": 1.88}}

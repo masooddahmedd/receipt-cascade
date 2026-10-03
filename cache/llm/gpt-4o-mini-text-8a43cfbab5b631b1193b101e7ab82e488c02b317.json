@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Round Hagyu (1gr)", "quantity": 1, "price": "47.200"}, {"name": "Wagyu Rice Box", "quantity": 1, "price": "10.000"}], "subtotal": "57.200", "tax": null, "total": "57.200"}, "usage": {"in": 335, "out": 68, "seconds": 1.52}}

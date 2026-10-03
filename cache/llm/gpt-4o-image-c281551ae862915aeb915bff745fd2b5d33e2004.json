@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "AIR MINERAL", "quantity": 1, "price": "8,181"}], "subtotal": "8,181", "tax": "818", "total": "8,999"}, "usage": {"in": 1044, "out": 46, "seconds": 1.58}}

@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-047",
+ "image_sha256": "568bd64dc2b183936b66699327edb7f74878d6a6fed434f920945f55a1015c9b",
+ "overall_confidence": 0.525,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "COPIA 1 /GB\n2100252000358",
+     "quantity": 1,
+     "price": "45,000.00"
+    },
+    {
+     "name": "PLASTIC BAG RED CENTRAL SI\n9100544260074",
+     "quantity": 1,
+     "price": "0.00"
+    },
+    {
+     "name": "COPIA 1 /GB\n2100252000358",
+     "quantity": 1,
+     "price": "18,000.00"
+    }
+   ],
+   "confidence": 0.6667,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "63,000.00",
+   "confidence": 0.9343,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.525,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "63,000.00",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-064",
+ "image_sha256": "ab257a9dfc56f9c33a30274351a42cfc82700f81ff1b80aef07e511b15570cc0",
+ "overall_confidence": 0.4273,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "SINGLE SCOOP",
+     "quantity": 1,
+     "price": "16.000"
+    }
+   ],
+   "confidence": 0.4273,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.556,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "34.000",
+   "confidence": 0.7175,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

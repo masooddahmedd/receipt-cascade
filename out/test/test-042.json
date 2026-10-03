@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-042",
+ "image_sha256": "6918a74b515e404d304d33266638698b9054d531eef63689c5ab5f754ce8c94a",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Chicken HcC",
+     "quantity": 1,
+     "price": "15.000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "15,000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "1.500",
+   "confidence": 0.8289,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "16,500",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

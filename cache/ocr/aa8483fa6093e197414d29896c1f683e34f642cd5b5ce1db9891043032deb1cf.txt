@@ -1,0 +1,12 @@
+Ice Lemon Tea
+13,636
+Gyro Platter -Regular
+50,000
+Subtotal
+63,636
+PR1-TAX TaX
+6,364
+For Here Total
+70,000
+Cash
+70,000

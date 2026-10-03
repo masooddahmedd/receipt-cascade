@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Chocochip & Walnut", "quantity": 1, "price": "29.000"}, {"name": "Plastic Bag Small", "quantity": 1, "price": "0"}], "subtotal": null, "tax": null, "total": "29.000"}, "usage": {"in": 704, "out": 61, "seconds": 1.15}}

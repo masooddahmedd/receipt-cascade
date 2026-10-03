@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "KaraaneCurryTeishoku", "quantity": 1, "price": "69.000"}, {"name": "Lenon Plate", "quantity": 1, "price": "19,000"}, {"name": "Ocha Hot", "quantity": 1, "price": "15,000"}], "subtotal": "103,000", "tax": "7,725", "total": "121798"}, "usage": {"in": 354, "out": 84, "seconds": 2.07}}

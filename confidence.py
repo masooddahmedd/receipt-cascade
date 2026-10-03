@@ -16,7 +16,9 @@ from schema import ExtractedReceipt, date_parses, to_amount, validator_flags
 def canonical(r: ExtractedReceipt, field: str):
     # The comparable form of a field: amounts as ints, names stripped to lowercase alphanumerics.
     if field == "line_items":
-        return tuple(sorted((name_key(i.name), i.quantity, to_amount(i.price)) for i in r.line_items))
+        return tuple(
+            sorted((name_key(i.name), i.quantity, to_amount(i.price)) for i in r.line_items)
+        )
     if field in ("subtotal", "tax", "total"):
         return to_amount(getattr(r, field))
     if field == "merchant":
@@ -37,8 +39,10 @@ def ocr_match(r: ExtractedReceipt, field: str, ocr: str) -> float:
     if field == "line_items":
         if not r.line_items:
             return 0.0
-        scores = [(float(str(to_amount(i.price)) in runs) + token_overlap(i.name, low)) / 2
-                  for i in r.line_items]
+        scores = [
+            (float(str(to_amount(i.price)) in runs) + token_overlap(i.name, low)) / 2
+            for i in r.line_items
+        ]
         return float(np.mean(scores))
     if field == "merchant":
         return token_overlap(r.merchant, low) if r.merchant else 0.0
@@ -56,7 +60,12 @@ def modal_run(runs: list[ExtractedReceipt], field: str):
 
 def feature_row(receipt: ExtractedReceipt, field: str, agreement: float, ocr: str) -> list[float]:
     one_hot = [float(field == f) for f in SCORED_FIELDS]
-    return [agreement, float(validator_flags(receipt)[field]), ocr_match(receipt, field, ocr), *one_hot]
+    return [
+        agreement,
+        float(validator_flags(receipt)[field]),
+        ocr_match(receipt, field, ocr),
+        *one_hot,
+    ]
 
 
 class ConfidenceModel:

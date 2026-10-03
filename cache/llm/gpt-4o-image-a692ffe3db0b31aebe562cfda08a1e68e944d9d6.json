@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "SEAFOOD MARINARA", "quantity": 1, "price": "85,000"}, {"name": "CREAMY MARINARA SALMON", "quantity": 1, "price": "85,500"}, {"name": "LYCHEE ICE TEA", "quantity": 2, "price": "77,000"}], "subtotal": "247,500", "tax": null, "total": "288,585"}, "usage": {"in": 1044, "out": 89, "seconds": 1.59}}

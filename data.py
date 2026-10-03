@@ -2,7 +2,6 @@
 # normalized shape the extractor produces. Only dev (validation) and test are used, the cascade
 # has nothing to train except a small confidence model, so the 800 train receipts are skipped.
 import hashlib
-import io
 import json
 import re
 from dataclasses import dataclass
@@ -48,12 +47,18 @@ def flatten_menu(menu) -> list[dict]:
 
 def parse_truth(gt_parse: dict) -> dict:
     truth = {}
-    items = [m for m in flatten_menu(gt_parse.get("menu", []))
-             if as_text(m.get("nm")) and to_amount(as_text(m.get("price"))) is not None]
+    items = [
+        m
+        for m in flatten_menu(gt_parse.get("menu", []))
+        if as_text(m.get("nm")) and to_amount(as_text(m.get("price"))) is not None
+    ]
     if items:
         truth["line_items"] = [
-            (name_key(as_text(m["nm"])), to_amount(as_text(m.get("cnt"))) or 1,
-             to_amount(as_text(m["price"])))
+            (
+                name_key(as_text(m["nm"])),
+                to_amount(as_text(m.get("cnt"))) or 1,
+                to_amount(as_text(m["price"])),
+            )
             for m in items
         ]
     sub = gt_parse.get("sub_total") or {}

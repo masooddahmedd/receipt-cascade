@@ -1,0 +1,11 @@
+Kupon 3
+28,636
+Subtotal
+28,636
+FB1(10%)
+2,864
+Dine In Total
+Cash
+50,000
+Change
+18,500

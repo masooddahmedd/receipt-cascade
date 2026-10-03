@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Kupon 3", "quantity": 1, "price": "28,636"}], "subtotal": "28,636", "tax": "2,864", "total": "31,500"}, "usage": {"in": 1044, "out": 49, "seconds": 1.92}}

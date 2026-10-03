@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "POTATO SAUSAGE BREAD", "quantity": 1, "price": "19,000"}, {"name": "OREO GREEN TEA SPREAD", "quantity": 1, "price": "152000"}, {"name": "WHITE CHOCO BANANA SPREAD", "quantity": 1, "price": "52,000"}], "subtotal": null, "tax": null, "total": "123,000"}, "usage": {"in": 345, "out": 89, "seconds": 2.2}}

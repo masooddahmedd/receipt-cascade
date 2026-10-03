@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-068",
+ "image_sha256": "e7f54a6d84378dfc718d38432883e0673d30b46ff3ca59ba32ba1b47e4c762b0",
+ "overall_confidence": 0.325,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "ICEO TT",
+     "quantity": 1,
+     "price": "20000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.325,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "20,000",
+   "confidence": 0.9898,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+BAKE
+Cheese Tart
+Rp58000.00
+Bag-s
+PS Carrier
+Rp58000.00
+Subtotal:
+Rp5272.73
+Total Tax Included:
+R:58000.00
+Total:
+Rp100000.00
+Customer Paid Cash:
+Rp42000.00
+Customer Change:

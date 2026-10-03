@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-018",
+ "image_sha256": "88c35bbd2e2a634e89f2c5bfd30f7b530b1082c1f4e6e7cb3cb913f0b46c3868",
+ "overall_confidence": 0.39,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Propolis Cair1",
+     "quantity": 1,
+     "price": "156000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "156000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.39,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "156000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

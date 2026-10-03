@@ -1,0 +1,9 @@
+BBQChicken
+41,000
+-Sedang
+41,000
+ITEMS:1
+41,000
+Total.
+Change:9.000
+PayCash50.000

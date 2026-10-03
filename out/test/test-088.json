@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-088",
+ "image_sha256": "cac2fe7129ff76dbfb047c827e0598ed0b8891f947507600fa7f0c5a48f605d6",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "STIXECLAIRS",
+     "quantity": 1,
+     "price": "19,000"
+    },
+    {
+     "name": "ALMONDCREAMCHEESE",
+     "quantity": 1,
+     "price": "28,000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "47.000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "47.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "@AuntieAnnes",
+   "confidence": 0.897,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "Pizza Hut", "date": null, "line_items": [{"name": "PAKET BER2", "quantity": 1, "price": "69,091"}], "subtotal": "69,091", "tax": "6,909", "total": "76,000"}, "usage": {"in": 1044, "out": 51, "seconds": 1.49}}

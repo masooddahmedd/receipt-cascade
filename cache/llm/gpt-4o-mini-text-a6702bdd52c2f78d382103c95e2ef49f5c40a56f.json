@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "AMBUSH DBL CH5", "quantity": 4, "price": "60000"}], "subtotal": "160000", "tax": "16000", "total": "176000"}, "usage": {"in": 322, "out": 47, "seconds": 1.38}}

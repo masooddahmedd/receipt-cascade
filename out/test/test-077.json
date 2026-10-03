@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-077",
+ "image_sha256": "88b51b28d0f0f0ac44a3562cd32c5e7fc197f759249bc24b83734fea0ae5fbe4",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "TRIPPLECHEESE",
+     "quantity": 1,
+     "price": "17,000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "17,000",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "22,000",
+   "confidence": 0.7175,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "TRIPPLECHEESE",
+   "confidence": 0.8249,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

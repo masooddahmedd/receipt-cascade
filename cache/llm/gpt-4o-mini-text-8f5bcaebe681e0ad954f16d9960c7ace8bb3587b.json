@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "CINEMAXX", "date": null, "line_items": [{"name": "REGULAR", "quantity": 1, "price": "23500C,00"}, {"name": "Total Due", "quantity": 1, "price": "70000.00"}], "subtotal": "70000.00", "tax": null, "total": "70000.00"}, "usage": {"in": 393, "out": 69, "seconds": 1.51}}

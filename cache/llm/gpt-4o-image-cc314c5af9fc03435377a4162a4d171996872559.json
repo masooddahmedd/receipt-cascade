@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "SpuPrice Cadburry", "quantity": 1, "price": "17,727"}], "subtotal": "17,727", "tax": "1,773", "total": "19,500"}, "usage": {"in": 1044, "out": 51, "seconds": 1.69}}

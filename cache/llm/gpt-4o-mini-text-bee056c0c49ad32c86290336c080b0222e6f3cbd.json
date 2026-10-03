@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Cheese Tart", "quantity": 6, "price": "Rp165000.00"}], "subtotal": "Rp15000.00", "tax": "Rp165000.00", "total": "Rp200000.00"}, "usage": {"in": 361, "out": 56, "seconds": 1.51}}

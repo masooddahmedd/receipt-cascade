@@ -1,0 +1,74 @@
+{
+ "receipt_id": "test-029",
+ "image_sha256": "1f065c268473d727282005e57441c55c3249afe0da54f3bc08823d0cbe730610",
+ "overall_confidence": 0.7038,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "+ABURA UDON SPICY",
+     "quantity": 1,
+     "price": "54.455"
+    },
+    {
+     "name": "!-KAKEUDON",
+     "quantity": 1,
+     "price": "12,727"
+    },
+    {
+     "name": "SKEWERED SHUMAI",
+     "quantity": 1,
+     "price": "12,727"
+    },
+    {
+     "name": "SKEWERED TOFU ROLL",
+     "quantity": 1,
+     "price": "12,727"
+    },
+    {
+     "name": "EBI TEMPURA",
+     "quantity": 1,
+     "price": "13,636"
+    },
+    {
+     "name": "KITSUNEUDON (KIDS)",
+     "quantity": 1,
+     "price": "28,182"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "132636",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "13,264",
+   "confidence": 0.8289,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "145,900",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "COLD OCHA",
+   "confidence": 0.897,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

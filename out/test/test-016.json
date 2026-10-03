@@ -1,0 +1,69 @@
+{
+ "receipt_id": "test-016",
+ "image_sha256": "eef326565b3945217a69afd84c893afdffd03a2f487943661c2423e6d6ec0d7d",
+ "overall_confidence": 0.7782,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "[LG] BLACK SAKURA",
+     "quantity": 1,
+     "price": "59,091"
+    },
+    {
+     "name": "LONGAN",
+     "quantity": 1,
+     "price": "0"
+    },
+    {
+     "name": "ROASTED ALMOND",
+     "quantity": 1,
+     "price": "0"
+    },
+    {
+     "name": "MANGGO",
+     "quantity": 1,
+     "price": "0"
+    },
+    {
+     "name": "MINERAL WATER (bundling) 5k",
+     "quantity": 1,
+     "price": "4,545"
+    }
+   ],
+   "confidence": 0.8034,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "63.636",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "6.364",
+   "confidence": 0.8289,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "70,000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

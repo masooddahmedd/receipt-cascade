@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-001",
+ "image_sha256": "5852cbe48df03646524e717e987eb3d0ac329a52fd192070b5fda1222a053789",
+ "overall_confidence": 0.556,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "J.STB PROMO",
+     "quantity": 1,
+     "price": "17500"
+    },
+    {
+     "name": "Y.B.BAT",
+     "quantity": 1,
+     "price": "46000"
+    },
+    {
+     "name": "Y.BASO PROM",
+     "quantity": 1,
+     "price": "27500"
+    }
+   ],
+   "confidence": 0.8949,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.556,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "91000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "SAMS",
+   "confidence": 0.6353,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": "05/04/2019",
+   "confidence": 0.6353,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

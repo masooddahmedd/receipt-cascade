@@ -1,0 +1,69 @@
+{
+ "receipt_id": "test-076",
+ "image_sha256": "bebf2e07acd27c26005e459e6cb5f0dc8af8eb5f202808ef0f82e803c7f2f8d5",
+ "overall_confidence": 0.39,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "BASO TAHU",
+     "quantity": 1,
+     "price": "46000"
+    },
+    {
+     "name": "NASI PUTIH",
+     "quantity": 1,
+     "price": "6000"
+    },
+    {
+     "name": "BASO TAHU",
+     "quantity": 1,
+     "price": "46000"
+    },
+    {
+     "name": "6000",
+     "quantity": 2,
+     "price": "6000"
+    },
+    {
+     "name": "NASI PUTIH",
+     "quantity": 1,
+     "price": "12000"
+    }
+   ],
+   "confidence": 0.7661,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.556,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.39,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "110000",
+   "confidence": 0.9825,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

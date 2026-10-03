@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-022",
+ "image_sha256": "707ccec39b2fc656f51ecc7294078228e727c10a9b6fbf417be86e7c58d70bb2",
+ "overall_confidence": 0.556,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "[MD] SOFT STEAMED CHEESEC",
+     "quantity": 2,
+     "price": "20,000"
+    },
+    {
+     "name": "[MD] SOFT STEAMED CHOCCA",
+     "quantity": 2,
+     "price": "20,000"
+    }
+   ],
+   "confidence": 0.7191,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.556,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "40,000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

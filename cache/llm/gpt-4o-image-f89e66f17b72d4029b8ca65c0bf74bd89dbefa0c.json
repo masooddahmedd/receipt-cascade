@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "PILLOW DUNIA", "quantity": 1, "price": "36,364"}, {"name": "PLASTIK 25", "quantity": 1, "price": "0"}], "subtotal": "36,364", "tax": "3,636", "total": "40,000"}, "usage": {"in": 1044, "out": 67, "seconds": 1.43}}

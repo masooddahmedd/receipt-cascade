@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "RedVelvet Nutella", "quantity": 1, "price": "280,000"}, {"name": "Free Mini Candle", "quantity": 5, "price": ""}, {"name": "Large Box", "quantity": 1, "price": ""}], "subtotal": "280,000", "tax": "28,000", "total": "308,000"}, "usage": {"in": 1044, "out": 77, "seconds": 1.89}}

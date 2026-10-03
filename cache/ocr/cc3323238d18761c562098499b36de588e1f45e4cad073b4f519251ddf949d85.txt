@@ -1,0 +1,9 @@
+42,000
+Seaweed Chicken
+-Sedang
+42,000
+ITEMS:1
+42,000
+Total.
+Change:8,000
+PayCash50,000

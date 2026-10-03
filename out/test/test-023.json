@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-023",
+ "image_sha256": "fd95d923b0bbed4f81238a7932b1088b4f12335689d333d455704404577c4490",
+ "overall_confidence": 0.556,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "TWIST DONUT",
+     "quantity": 1,
+     "price": "54,000"
+    },
+    {
+     "name": "REDBEAN BREAD",
+     "quantity": 1,
+     "price": "9,000"
+    }
+   ],
+   "confidence": 0.7038,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.556,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "63,000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-007",
+ "image_sha256": "810d3545f4105b19757c4b8b35934a477cde8cd1875302d9092315d2f960ef93",
+ "overall_confidence": 0.525,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Kupon 15",
+     "quantity": 1,
+     "price": "100,000"
+    },
+    {
+     "name": "ADD CHICKEN BOX",
+     "quantity": 1,
+     "price": "909"
+    }
+   ],
+   "confidence": 0.8755,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "100,909",
+   "confidence": 0.7782,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "10,091",
+   "confidence": 0.525,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "111,000",
+   "confidence": 0.7175,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

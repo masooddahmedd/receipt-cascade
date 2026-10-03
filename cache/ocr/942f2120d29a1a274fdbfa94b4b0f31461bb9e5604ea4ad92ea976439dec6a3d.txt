@@ -1,0 +1,15 @@
+85.000
+1 AOP Seafood
+95,000
+1 Omurice Katsu Curry
+1 Earl Gray Tea
+25,000
+1 Hot Tea
+240.000
+SUBTOTAL
+21,600
+Service
+PB1
+26,160
+TOTAL
+287760

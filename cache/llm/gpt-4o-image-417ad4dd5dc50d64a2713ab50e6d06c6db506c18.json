@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Arem Arem", "quantity": 2, "price": "24.000"}, {"name": "Pepenero Pastel", "quantity": 2, "price": "30.000"}], "subtotal": "Rp 54.000", "tax": "Rp 5.400", "total": "Rp 59.400"}, "usage": {"in": 1044, "out": 73, "seconds": 1.94}}

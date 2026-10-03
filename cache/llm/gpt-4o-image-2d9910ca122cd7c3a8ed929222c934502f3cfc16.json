@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "Bakmi Bangka", "date": null, "line_items": [{"name": "Nasi Cap Cay Porsi Besar", "quantity": 1, "price": "65.000"}, {"name": "Teh Tawar", "quantity": 2, "price": "4.000"}, {"name": "Fu Yung Hai", "quantity": 1, "price": "65.000"}], "subtotal": "Rp 138.000", "tax": null, "total": "Rp 138.000"}, "usage": {"in": 1044, "out": 92, "seconds": 1.5}}

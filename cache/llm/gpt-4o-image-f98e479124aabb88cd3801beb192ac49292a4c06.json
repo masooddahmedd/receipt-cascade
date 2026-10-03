@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "NASI GOR SFD TLR", "quantity": 1, "price": "Rp35.000"}, {"name": "ES TEH TAWAR", "quantity": 1, "price": "Rp3.000"}], "subtotal": null, "tax": null, "total": "Rp38.000"}, "usage": {"in": 1044, "out": 71, "seconds": 2.67}}

@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Choco Devil", "quantity": 4, "price": "63,636"}, {"name": "CP 360 Club Card", "quantity": 1, "price": "-9,545"}], "subtotal": "63,636", "tax": null, "total": "59,500"}, "usage": {"in": 1044, "out": 65, "seconds": 2.06}}

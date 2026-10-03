@@ -1,0 +1,26 @@
+Chicken Maryland
+47619.00
+Cappucino(Hot/Iced)
+30303.00
+Naga Lychee Juice
+34632.00
+Cafe Latte
+30303.00
+Hot Chocolate Marshmalio
+30303.00
+Chicken Cesar Salad
+43290.00
+Mineral Water
+12987.00
+12987.00
+Mineral Water
+25974.00
+Lychee/Peach/Lemon/Mango
+47619.00
+Chicken Maryland
+Subtotal
+316017.00
+Service Charge 5% +
+48982.66
+TOTAL
+365000.00

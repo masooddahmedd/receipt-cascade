@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "STIX CINNAMON", "quantity": 1, "price": "19,000"}, {"name": "CINNAMON SUGAR", "quantity": 1, "price": "17,000"}, {"name": "TRIPPLE CHEESE", "quantity": 1, "price": "17,000"}], "subtotal": "53,000", "tax": null, "total": "53,000"}, "usage": {"in": 1044, "out": 86, "seconds": 1.64}}

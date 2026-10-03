@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "BONGA", "date": null, "line_items": [{"name": "MINERAL600ML", "quantity": 1, "price": "7.727"}, {"name": "BULGOGI RICE R", "quantity": 1, "price": "33,636"}], "subtotal": "41,364", "tax": "4,136", "total": "45,500"}, "usage": {"in": 355, "out": 72, "seconds": 1.62}}

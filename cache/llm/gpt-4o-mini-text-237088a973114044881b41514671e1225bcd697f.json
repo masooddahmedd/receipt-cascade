@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "FUTAMI 17 GREEN TEA (CLAS", "quantity": 1, "price": "12,500"}, {"name": "EGG TART", "quantity": 1, "price": "13,000"}, {"name": "GRAIN CROQUE MONSIEUR", "quantity": 1, "price": "17,000"}], "subtotal": null, "tax": null, "total": "42,500"}, "usage": {"in": 353, "out": 90, "seconds": 1.86}}

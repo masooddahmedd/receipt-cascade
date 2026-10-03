@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Kopi Susu Kampung", "quantity": 1, "price": "19.000"}, {"name": "Kopi Susu Kampung -Less Ice", "quantity": 1, "price": "38.000"}], "subtotal": "57.000", "tax": null, "total": "57.000"}, "usage": {"in": 361, "out": 71, "seconds": 1.62}}

@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-063",
+ "image_sha256": "dd39eb958a1042cd9fc81690c37c70d0cc3c913ab1fe59fd4b59cb93cd915f64",
+ "overall_confidence": 0.7419,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Kopi Susu Kampung.",
+     "quantity": 1,
+     "price": "19.000"
+    },
+    {
+     "name": "Kopi Susu Kampung",
+     "quantity": 2,
+     "price": "38.000"
+    }
+   ],
+   "confidence": 0.9364,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "57.000",
+   "confidence": 0.9633,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7419,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "57.000",
+   "confidence": 0.95,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5018,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}
