@@ -1,0 +1,12 @@
+matplotlib==3.11.2
+numpy==2.5.3
+openai==3.24.0
+pandas==3.0.6
+pillow==12.3.0
+pyarrow==25.0.1
+pydantic==2.13.5
+pytest==9.1.1
+python-dotenv==1.2.4
+rapidocr-onnxruntime==1.2.3
+ruff==0.16.10
+scikit-learn==1.9.1
