@@ -63,10 +63,9 @@ def validator_flags(r: ExtractedReceipt) -> dict[str, bool]:
     items_sum = line_item_sum(r)
     sub, tax, tot = to_amount(r.subtotal), to_amount(r.tax), to_amount(r.total)
     items_ok = items_sum is not None and sub is not None and within_tolerance(items_sum, sub)
-    if sub is not None and tot is not None:
-        sum_ok = within_tolerance(sub + (tax or 0), tot)
-    else:
-        sum_ok = False
+    # Many receipts print no subtotal line, so the items stand in for it when it is missing.
+    base = sub if sub is not None else items_sum
+    sum_ok = base is not None and tot is not None and within_tolerance(base + (tax or 0), tot)
     return {
         "merchant": bool(r.merchant and r.merchant.strip()),
         "date": date_parses(r.date),

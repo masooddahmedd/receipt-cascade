@@ -11,6 +11,11 @@ from extract import extract
 from ocr import ocr_text
 
 
+def raw_field(r, field: str):
+    value = getattr(r, field)
+    return [i.model_dump() for i in value] if field == "line_items" else value
+
+
 def run_receipt(rec: Receipt) -> dict:
     tier1 = [extract(rec.image_bytes, rec.image_sha256, TIER1_MODEL, TIER1_TEMPERATURE, i)
              for i in range(TIER1_RUNS)]
@@ -24,6 +29,8 @@ def run_receipt(rec: Receipt) -> dict:
         agrees_with_t1 = float(canonical(tier2, f) == canonical(best, f))
         fields[f] = {
             "tier1_value": canonical(best, f),
+            "tier1_raw": raw_field(best, f),
+            "tier2_raw": raw_field(tier2, f),
             "tier1_features": feature_row(best, f, agreement, ocr),
             "tier2_value": canonical(tier2, f),
             "tier2_features": feature_row(tier2, f, agrees_with_t1, ocr),

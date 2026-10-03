@@ -6,7 +6,6 @@ import re
 from collections import Counter
 
 import numpy as np
-from sklearn.linear_model import LogisticRegression
 
 from config import SCORED_FIELDS
 from data import name_key
@@ -61,12 +60,30 @@ def feature_row(receipt: ExtractedReceipt, field: str, agreement: float, ocr: st
 
 
 class ConfidenceModel:
-    def __init__(self):
-        self.model = LogisticRegression(C=1.0, max_iter=1000)
+    # Plain L2-regularised logistic regression fit with Newton steps. scikit-learn is not used
+    # because its compiled extensions are blocked on the machine this was built on, and the model
+    # is tiny (a dozen weights, a few hundred rows).
+    def __init__(self, l2: float = 1.0):
+        self.l2 = l2
+        self.w = None
 
     def fit(self, rows: list[list[float]], correct: list[bool]) -> "ConfidenceModel":
-        self.model.fit(np.array(rows), np.array(correct, dtype=int))
+        X = np.hstack([np.array(rows), np.ones((len(rows), 1))])
+        y = np.array(correct, dtype=float)
+        w = np.zeros(X.shape[1])
+        reg = self.l2 * np.eye(X.shape[1])
+        reg[-1, -1] = 0.0
+        for _ in range(50):
+            p = 1 / (1 + np.exp(-X @ w))
+            grad = X.T @ (p - y) + reg @ w
+            hess = X.T @ (X * (p * (1 - p))[:, None]) + reg + 1e-8 * np.eye(X.shape[1])
+            step = np.linalg.solve(hess, grad)
+            w -= step
+            if np.abs(step).max() < 1e-8:
+                break
+        self.w = w
         return self
 
     def predict(self, rows: list[list[float]]) -> np.ndarray:
-        return self.model.predict_proba(np.array(rows))[:, 1]
+        X = np.hstack([np.array(rows), np.ones((len(rows), 1))])
+        return 1 / (1 + np.exp(-X @ self.w))
