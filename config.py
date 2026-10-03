@@ -11,7 +11,7 @@ TIER2_MODEL = "gpt-4o"
 TIER1_RUNS = 3
 TIER1_TEMPERATURE = 0.7
 TIER2_TEMPERATURE = 0.0
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2"
 
 # Longest image side sent to the models. Keeps the tile count (and cost) bounded.
 MAX_IMAGE_SIDE = 1024

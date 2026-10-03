@@ -1,6 +1,6 @@
-# Calls the vision models and caches every response on disk keyed by (prompt version, model, run,
-# image hash). The cache is committed, so the eval reruns for free and anyone can check the
-# numbers without an API key.
+# Calls the models and caches every response on disk keyed by (prompt version, model, run, image
+# hash). Tier 1 reads OCR text (cheap), Tier 2 looks at the image. The cache is committed, so the
+# eval reruns for free and anyone can check the numbers without an API key.
 import base64
 import hashlib
 import io
@@ -18,6 +18,11 @@ PROMPT = (
     "commas, do not convert them). line_items has one entry per purchased product with its "
     "quantity and the line price. subtotal, tax and total are null if the receipt does not print "
     "them. Do not guess values you cannot read."
+)
+
+TEXT_PROMPT = (
+    "Below is the raw OCR text of a receipt (it may contain recognition errors and the layout is "
+    "lost). " + PROMPT.split(". ", 1)[1]
 )
 
 _client = None
@@ -41,28 +46,35 @@ def prepare_image(image_bytes: bytes) -> str:
     return base64.b64encode(buf.getvalue()).decode()
 
 
-def cache_path(model: str, temperature: float, run: int, image_sha256: str):
-    key = hashlib.sha1(f"{PROMPT_VERSION}|{model}|{temperature}|{run}|{image_sha256}".encode())
-    return CACHE_DIR / "llm" / f"{model}-{key.hexdigest()}.json"
+def cache_path(model: str, temperature: float, run: int, image_sha256: str, mode: str):
+    key = hashlib.sha1(
+        f"{PROMPT_VERSION}|{mode}|{model}|{temperature}|{run}|{image_sha256}".encode())
+    return CACHE_DIR / "llm" / f"{model}-{mode}-{key.hexdigest()}.json"
 
 
-def extract(image_bytes: bytes, image_sha256: str, model: str, temperature: float, run: int):
-    path = cache_path(model, temperature, run, image_sha256)
+def extract(image_bytes: bytes, image_sha256: str, model: str, temperature: float, run: int,
+            ocr: str | None = None):
+    # ocr given means text-only mode (Tier 1); otherwise the model gets the image (Tier 2).
+    path = cache_path(model, temperature, run, image_sha256, "text" if ocr else "image")
     if path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
         return ExtractedReceipt.model_validate(cached["parsed"]), cached["usage"]
 
-    b64 = prepare_image(image_bytes)
+    if ocr:
+        content = f"{TEXT_PROMPT}\n\n---\n{ocr}\n---"
+    else:
+        b64 = prepare_image(image_bytes)
+        content = [
+            {"type": "text", "text": PROMPT},
+            {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}",
+                                                "detail": "high"}},
+        ]
     started = time.time()
     resp = client().chat.completions.parse(
         model=model,
         temperature=temperature,
         response_format=ExtractedReceipt,
-        messages=[{"role": "user", "content": [
-            {"type": "text", "text": PROMPT},
-            {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}",
-                                                "detail": "high"}},
-        ]}],
+        messages=[{"role": "user", "content": content}],
     )
     parsed = resp.choices[0].message.parsed
     usage = {"in": resp.usage.prompt_tokens, "out": resp.usage.completion_tokens,

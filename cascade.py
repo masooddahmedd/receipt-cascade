@@ -17,11 +17,11 @@ def raw_field(r, field: str):
 
 
 def run_receipt(rec: Receipt) -> dict:
-    tier1 = [extract(rec.image_bytes, rec.image_sha256, TIER1_MODEL, TIER1_TEMPERATURE, i)
+    ocr = ocr_text(rec.image_bytes, rec.image_sha256)
+    tier1 = [extract(rec.image_bytes, rec.image_sha256, TIER1_MODEL, TIER1_TEMPERATURE, i, ocr)
              for i in range(TIER1_RUNS)]
     tier2, usage2 = extract(rec.image_bytes, rec.image_sha256, TIER2_MODEL, TIER2_TEMPERATURE, 0)
     runs = [r for r, _ in tier1]
-    ocr = ocr_text(rec.image_bytes, rec.image_sha256)
 
     fields = {}
     for f in ALL_FIELDS:
