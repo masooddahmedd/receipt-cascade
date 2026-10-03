@@ -1,0 +1,64 @@
+{
+ "receipt_id": "test-033",
+ "image_sha256": "c0561fcfa9cd1aea727ae12b63aaadf6e9d721e1bc9510686b53f8622e42a1d5",
+ "overall_confidence": 0.1921,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "GRILLED BABY POTATO (R",
+     "quantity": 1,
+     "price": "50,500"
+    },
+    {
+     "name": "HOT TUNA",
+     "quantity": 1,
+     "price": "67,000"
+    },
+    {
+     "name": "HOT TUNA",
+     "quantity": 1,
+     "price": "67,000"
+    },
+    {
+     "name": "Disc -100%(ITM06)",
+     "quantity": 1,
+     "price": "-67,000"
+    }
+   ],
+   "confidence": 0.7581,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "117,500",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.1921,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "148.127",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

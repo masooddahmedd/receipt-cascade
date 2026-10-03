@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-031",
+ "image_sha256": "0052502fe9b8b69cb503076cce7b866101b6047ddbf9074660fb49954f90882c",
+ "overall_confidence": 0.4034,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "SALMON PESTO",
+     "quantity": 1,
+     "price": "85,500"
+    },
+    {
+     "name": "SALMON PESTO",
+     "quantity": 1,
+     "price": "85,500"
+    },
+    {
+     "name": "Disc -100%(ITM06)",
+     "quantity": 1,
+     "price": "-85,500"
+    }
+   ],
+   "confidence": 0.7581,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "85,500",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.4034,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "113.886",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

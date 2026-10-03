@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "Cap Cay", "quantity": 1, "price": "65.000"}, {"name": "Teh Tawar", "quantity": 1, "price": "4.000"}, {"name": "Fu Yung Hai", "quantity": 1, "price": "65.000"}], "subtotal": "Rp138.000", "tax": null, "total": "Rp138.000"}, "usage": {"in": 377, "out": 81, "seconds": 1.95}}

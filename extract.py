@@ -60,9 +60,10 @@ def extract(
     temperature: float,
     run: int,
     ocr: str | None = None,
+    ocr_kind: str = "text",
 ):
     # ocr given means text-only mode (Tier 1); otherwise the model gets the image (Tier 2).
-    path = cache_path(model, temperature, run, image_sha256, "text" if ocr else "image")
+    path = cache_path(model, temperature, run, image_sha256, ocr_kind if ocr else "image")
     if path.exists():
         cached = json.loads(path.read_text(encoding="utf-8"))
         return ExtractedReceipt.model_validate(cached["parsed"]), cached["usage"]

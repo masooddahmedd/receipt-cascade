@@ -1,0 +1,64 @@
+{
+ "receipt_id": "test-051",
+ "image_sha256": "d7bb9ae6973048a5fccafd2559315523040d6450e6bf678c42c42f58508b9d88",
+ "overall_confidence": 0.8162,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "(TA) NASI URG TERI MEDAN",
+     "quantity": 4,
+     "price": "165,460"
+    },
+    {
+     "name": "(TA) BIHUN GORENG SEAFOOD",
+     "quantity": 1,
+     "price": "40,456"
+    },
+    {
+     "name": "(TA) KWETIAW SEAFOOD SIRAM",
+     "quantity": 1,
+     "price": "42,274"
+    },
+    {
+     "name": "(TA) NASI GORENG",
+     "quantity": 2,
+     "price": "55,456"
+    }
+   ],
+   "confidence": 0.9284,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "303,646",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "30,365",
+   "confidence": 0.8162,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "334,000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "trais",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

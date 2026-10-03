@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "Dancie", "date": null, "line_items": [{"name": "1 BLACK PEPPER MEATBALL PAS", "quantity": 1, "price": "77,000"}, {"name": "1 TRUFFLE CREAM", "quantity": 1, "price": "59,000"}, {"name": "1 EARL.GREY MILK TEA", "quantity": 1, "price": "215000"}], "subtotal": "12,900", "tax": "22,790", "total": "250.690"}, "usage": {"in": 430, "out": 96, "seconds": 1.73}}

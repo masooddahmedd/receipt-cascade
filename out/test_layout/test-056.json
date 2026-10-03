@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-056",
+ "image_sha256": "bd0f59b52e491495518284f614d567f839b31c27c6067e53c79557cd1cf8c387",
+ "overall_confidence": 0.5527,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "AIR MINERAL",
+     "quantity": 1,
+     "price": "8,181"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "8,181",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "818",
+   "confidence": 0.5527,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "10,000",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

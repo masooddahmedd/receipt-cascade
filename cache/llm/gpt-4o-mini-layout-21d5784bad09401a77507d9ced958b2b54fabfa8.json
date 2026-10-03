@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "LE HINERAL", "date": null, "line_items": [{"name": "NETI ANT", "quantity": 1, "price": "71273"}, {"name": "TAX ANT", "quantity": 1, "price": "727"}], "subtotal": null, "tax": null, "total": "8-000"}, "usage": {"in": 333, "out": 60, "seconds": 2.04}}

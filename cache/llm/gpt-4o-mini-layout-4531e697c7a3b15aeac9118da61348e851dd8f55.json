@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "AFUNG", "date": null, "line_items": [{"name": "IST CAFUR", "quantity": 1, "price": "43.636"}, {"name": "A.MTMERAL.EOTCA.", "quantity": 1, "price": "8.000"}, {"name": "TUNAT", "quantity": 1, "price": "53.200"}], "subtotal": "51,636", "tax": "5.164", "total": "56.800"}, "usage": {"in": 379, "out": 85, "seconds": 1.75}}

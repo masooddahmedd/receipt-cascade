@@ -1,0 +1,74 @@
+{
+ "receipt_id": "test-039",
+ "image_sha256": "50fb8ed728fa474bfb50292d6754b4e9bbe7c73fe0b07fe071c540a672f625fc",
+ "overall_confidence": 0.4034,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOON",
+     "quantity": 8,
+     "price": "1,944,000"
+    },
+    {
+     "name": "DISKON (20%)",
+     "quantity": 1,
+     "price": "1,555,200"
+    },
+    {
+     "name": "HPL500 RICE CASE 7L W/CUP",
+     "quantity": 5,
+     "price": "975,000"
+    },
+    {
+     "name": "DISKON (20%)",
+     "quantity": 1,
+     "price": "780,000"
+    },
+    {
+     "name": "HPL754DB LUNCH BOX 3P SET W/BLACK BAG & SPOON",
+     "quantity": 4,
+     "price": "972,000"
+    },
+    {
+     "name": "DISKON (20%)",
+     "quantity": 1,
+     "price": "777,600"
+    }
+   ],
+   "confidence": 0.5743,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.4034,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "3,112,800",
+   "confidence": 0.5211,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

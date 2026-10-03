@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-066",
+ "image_sha256": "c1107b942305c7f4399c346b734905e6cfeab64bcfa9fce2f35780f23ee8e586",
+ "overall_confidence": 0.8275,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "PILLOW DUNIA",
+     "quantity": 1,
+     "price": "36,364"
+    },
+    {
+     "name": "PLASTIK 25",
+     "quantity": 1,
+     "price": "0"
+    }
+   ],
+   "confidence": 0.8275,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "36 364",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "3,636",
+   "confidence": 0.9509,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "40,000",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "PILLOM DUNIA",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "receipt_id": "test-038",
+ "image_sha256": "b7afc72ae79e1c0b23b46c83ae89031bb08ce5aec5e532e7a6f74b9511dc7fda",
+ "overall_confidence": 0.5527,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "XLB Org Pork 10x",
+     "quantity": 1,
+     "price": "78,000"
+    },
+    {
+     "name": "Sicito Babi",
+     "quantity": 1,
+     "price": "65,000"
+    },
+    {
+     "name": "Hotplate Tahu",
+     "quantity": 1,
+     "price": "58,000"
+    },
+    {
+     "name": "DF Fish Fillet Garlic",
+     "quantity": 1,
+     "price": "108,000"
+    },
+    {
+     "name": "LM Pork Belly",
+     "quantity": 1,
+     "price": "88,000"
+    },
+    {
+     "name": "Siew Mai",
+     "quantity": 1,
+     "price": "38,800"
+    },
+    {
+     "name": "Kwan Yin Cup",
+     "quantity": 5,
+     "price": "50,000"
+    },
+    {
+     "name": "Herbal Jelly",
+     "quantity": 1,
+     "price": "38,000"
+    },
+    {
+     "name": "Onde-Onde",
+     "quantity": 1,
+     "price": "38,000"
+    }
+   ],
+   "confidence": 0.9135,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "561,800",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "42,135",
+   "confidence": 0.5527,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "664,329",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

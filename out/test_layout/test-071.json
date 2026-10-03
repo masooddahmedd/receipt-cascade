@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-071",
+ "image_sha256": "2c73d02e1528bd76ecdfeae8e3e56fa2eaee5997f0473be80a56738e59350dff",
+ "overall_confidence": 0.4034,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Cuka Apel Tetes",
+     "quantity": 1,
+     "price": "198000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "198000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.4034,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": null,
+   "confidence": 0.7558,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

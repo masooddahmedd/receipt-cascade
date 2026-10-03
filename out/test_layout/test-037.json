@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-037",
+ "image_sha256": "885a3bc80bdaff2a5a8440ab61679c65a4249e89cf5c6b0ec714b62c512983bb",
+ "overall_confidence": 0.5651,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Popcorn Salt (S)",
+     "quantity": 1,
+     "price": "20.000"
+    }
+   ],
+   "confidence": 0.8991,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "20.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

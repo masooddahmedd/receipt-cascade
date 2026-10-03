@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-013",
+ "image_sha256": "ca4bf89562b3f55c2c91968ca221a629e48386744a5322596d9c7345648ada13",
+ "overall_confidence": 0.6996,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "BASO KUAH",
+     "quantity": 1,
+     "price": "43.636"
+    },
+    {
+     "name": "A.MINERAL GELAS",
+     "quantity": 1,
+     "price": "3.000"
+    }
+   ],
+   "confidence": 0.6996,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "46.63",
+   "confidence": 0.8715,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "4.664",
+   "confidence": 0.8162,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "51-300",
+   "confidence": 0.706,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "FOURNC",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

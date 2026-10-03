@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-072",
+ "image_sha256": "0000fb66d5cf4154d84d87f00c363cbdb62f805418aedbaca6e6fbc7cb8c32e8",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Choco Devil",
+     "quantity": 1,
+     "price": "15,909"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "15,909",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "1,591",
+   "confidence": 0.9509,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "17,500",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "Darepes",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

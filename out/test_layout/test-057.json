@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-057",
+ "image_sha256": "5247f1a4f69149e499d849654335da75cb4a534539cd375b8606f96d2c8a983d",
+ "overall_confidence": 0.4249,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "ICED TT",
+     "quantity": 1,
+     "price": "20,000"
+    },
+    {
+     "name": "ICED GT",
+     "quantity": 1,
+     "price": "22,000"
+    }
+   ],
+   "confidence": 0.4249,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "42000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "receipt_id": "test-017",
+ "image_sha256": "4322ab5ec4f0b1365e08af0c31288e65e8cbd2c8eb5241adfb329244acbbb30b",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Goblin's Mace",
+     "quantity": 1,
+     "price": "25,000"
+    },
+    {
+     "name": "Mozarella Hot",
+     "quantity": 1,
+     "price": "38,000"
+    },
+    {
+     "name": "Chili Pepper",
+     "quantity": 1,
+     "price": "14,000"
+    },
+    {
+     "name": "Croquette Cheese",
+     "quantity": 1,
+     "price": "14.000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "91,000",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "Rp.91,000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

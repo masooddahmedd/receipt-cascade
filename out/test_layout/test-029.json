@@ -1,0 +1,84 @@
+{
+ "receipt_id": "test-029",
+ "image_sha256": "1f065c268473d727282005e57441c55c3249afe0da54f3bc08823d0cbe730610",
+ "overall_confidence": 0.8162,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "COLD OCHA",
+     "quantity": 1,
+     "price": "10,909"
+    },
+    {
+     "name": "BCA PROMO",
+     "quantity": 1,
+     "price": "54,455"
+    },
+    {
+     "name": "ABURA UDON SPICY",
+     "quantity": 1,
+     "price": "0"
+    },
+    {
+     "name": "KAKE UDON",
+     "quantity": 1,
+     "price": "0"
+    },
+    {
+     "name": "SKEWERED SHUMAI",
+     "quantity": 1,
+     "price": "12,727"
+    },
+    {
+     "name": "SKEWERED TOFU ROLL",
+     "quantity": 1,
+     "price": "12,727"
+    },
+    {
+     "name": "EBI TEMPURA",
+     "quantity": 1,
+     "price": "13,636"
+    },
+    {
+     "name": "KITSUNE UDON (KIDS)",
+     "quantity": 1,
+     "price": "28,182"
+    }
+   ],
+   "confidence": 0.9656,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "132636",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "13,264",
+   "confidence": 0.8162,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "145,900",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

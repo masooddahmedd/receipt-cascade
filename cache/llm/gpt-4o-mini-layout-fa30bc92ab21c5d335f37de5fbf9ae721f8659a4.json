@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "REGIBLACKSAKURA", "quantity": 1, "price": "45.455"}, {"name": "COOKIEDOHSAUCES", "quantity": 1, "price": "0.000"}, {"name": "NATA DE COCO", "quantity": 1, "price": "0.000"}], "subtotal": "45.455", "tax": null, "total": "50.000"}, "usage": {"in": 367, "out": 88, "seconds": 1.94}}

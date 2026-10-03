@@ -1,0 +1,64 @@
+{
+ "receipt_id": "test-045",
+ "image_sha256": "67503d672ef23dc9805f78218172feece7f6138716651bf2a5cb3100cec5fe54",
+ "overall_confidence": 0.5651,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Lemon Tea (L).",
+     "quantity": 1,
+     "price": "25.000"
+    },
+    {
+     "name": "Mike & Ike Original",
+     "quantity": 1,
+     "price": "28.000"
+    },
+    {
+     "name": "Mike & Berry",
+     "quantity": 1,
+     "price": "28.000"
+    },
+    {
+     "name": "Roti Keju Manis.",
+     "quantity": 1,
+     "price": "7.000"
+    }
+   ],
+   "confidence": 0.8613,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "88.000",
+   "confidence": 0.8312,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

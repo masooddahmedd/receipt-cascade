@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-053",
+ "image_sha256": "def32b0764325a94ef34f733308bbc477d15bda95928eec41bcf541fef346c5d",
+ "overall_confidence": 0.5527,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Pecel Komplit + Nasi",
+     "quantity": 1,
+     "price": "42.000"
+    },
+    {
+     "name": "SOTO KUDUS",
+     "quantity": 1,
+     "price": "47.000"
+    },
+    {
+     "name": "Mineral water",
+     "quantity": 2,
+     "price": "18.000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "107.000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "11.235",
+   "confidence": 0.5527,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "123.585",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "Hepedegit",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

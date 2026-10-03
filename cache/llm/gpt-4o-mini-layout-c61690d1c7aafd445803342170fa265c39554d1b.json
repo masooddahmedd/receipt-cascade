@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "TRAD KY TOAST CARTE", "quantity": 1, "price": "28.182"}, {"name": "PB-110%", "quantity": 1, "price": "2.818"}], "subtotal": "28.182", "tax": null, "total": "31.000"}, "usage": {"in": 346, "out": 67, "seconds": 2.28}}

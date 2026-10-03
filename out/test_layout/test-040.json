@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-040",
+ "image_sha256": "58a6ddce5023e3ce90f9b2fd094ff9db3c31a89f9524bd57374f86610227a7f5",
+ "overall_confidence": 0.3957,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Snack Lestari A11",
+     "quantity": 2,
+     "price": "54,000"
+    },
+    {
+     "name": "Bakery Aneka Sisir banana, Pizza, yoko, Marmer, Daging, abon, Keju, cokelat, dll",
+     "quantity": 2,
+     "price": "14,000"
+    }
+   ],
+   "confidence": 0.3957,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "68.000",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "SHackiLestarAl",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

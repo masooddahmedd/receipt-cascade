@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-028",
+ "image_sha256": "d94cc999dbef6b8384afd158cf4757b4df2bd8fadfc8ba4f077b618dc9c32dc0",
+ "overall_confidence": 0.5527,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "SAMGYOPSAL",
+     "quantity": 1,
+     "price": "194,000"
+    },
+    {
+     "name": "SUL LUNG TANG",
+     "quantity": 1,
+     "price": "75,000"
+    },
+    {
+     "name": "MAKOLI",
+     "quantity": 1,
+     "price": "100,000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "369,000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "38,745",
+   "confidence": 0.5527,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "426,195",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-086",
+ "image_sha256": "90cfa5080f92be13fef22693172ca6c775d4f75758136d00e1a3a0ceb2cb7d12",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Chcezemania",
+     "quantity": 1,
+     "price": "9,500"
+    },
+    {
+     "name": "Manamia",
+     "quantity": 1,
+     "price": "12,500"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "22.000",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "22,000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "BreadLife",
+   "confidence": 0.6316,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

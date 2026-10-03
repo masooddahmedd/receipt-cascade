@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-030",
+ "image_sha256": "52879816c28ebc3a7bc777c31685fb71f36bc4d1f7d7dc9c0b743fc5aced84de",
+ "overall_confidence": 0.5527,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Kupon 3",
+     "quantity": 1,
+     "price": "28,636"
+    }
+   ],
+   "confidence": 0.9758,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "28,636",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "2,864",
+   "confidence": 0.5527,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "50,000",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

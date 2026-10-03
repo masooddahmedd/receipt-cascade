@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "PEIRLAYAN", "date": "PAHNLRAN", "line_items": [{"name": "BUBUR GO", "quantity": 1, "price": "40.000"}, {"name": "PUYUH GO", "quantity": 1, "price": "6.000"}, {"name": "SATEZATIZGO", "quantity": 1, "price": "9.000"}], "subtotal": null, "tax": null, "total": "55.000"}, "usage": {"in": 366, "out": 87, "seconds": 1.61}}

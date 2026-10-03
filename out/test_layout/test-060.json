@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-060",
+ "image_sha256": "69bc755f567870a719b4e87df673d01c9cb29c9d2e12c9e7b060f5aea49538de",
+ "overall_confidence": 0.7537,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Topping Milo Sparkle (untuk 1 Porsi)",
+     "quantity": 1,
+     "price": "1.250"
+    },
+    {
+     "name": "Bola Ubi Mini Original (14 Pcs)",
+     "quantity": 2,
+     "price": "25.000"
+    }
+   ],
+   "confidence": 0.9247,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "26.250",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "26.250",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

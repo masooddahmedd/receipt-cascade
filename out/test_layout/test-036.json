@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-036",
+ "image_sha256": "d01a1be5ce3dac70b0ddddb246a17c32c077360cb00eee25b42a4dac7be13a8d",
+ "overall_confidence": 0.2639,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "XXL Crispy Chicken",
+     "quantity": 1,
+     "price": "40,000"
+    },
+    {
+     "name": "Sedang",
+     "quantity": 1,
+     "price": "0"
+    }
+   ],
+   "confidence": 0.2639,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "subtotal": {
+   "value": "40.000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "100.000",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

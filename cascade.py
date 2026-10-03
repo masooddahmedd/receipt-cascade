@@ -14,7 +14,7 @@ from config import (
 )
 from data import Receipt
 from extract import extract
-from ocr import ocr_text
+from ocr import ocr_layout_text, ocr_text
 
 
 def raw_field(r, field: str):
@@ -22,10 +22,17 @@ def raw_field(r, field: str):
     return [i.model_dump() for i in value] if field == "line_items" else value
 
 
-def run_receipt(rec: Receipt) -> dict:
+def run_receipt(rec: Receipt, tier1_input: str = "layout") -> dict:
     ocr = ocr_text(rec.image_bytes, rec.image_sha256)
+    # The confidence features always use the plain OCR text; only what Tier 1 reads changes.
+    if tier1_input == "layout":
+        prompt_text, kind = ocr_layout_text(rec.image_bytes, rec.image_sha256), "layout"
+    else:
+        prompt_text, kind = ocr, "text"
     tier1 = [
-        extract(rec.image_bytes, rec.image_sha256, TIER1_MODEL, TIER1_TEMPERATURE, i, ocr)
+        extract(
+            rec.image_bytes, rec.image_sha256, TIER1_MODEL, TIER1_TEMPERATURE, i, prompt_text, kind
+        )
         for i in range(TIER1_RUNS)
     ]
     tier2, usage2 = extract(rec.image_bytes, rec.image_sha256, TIER2_MODEL, TIER2_TEMPERATURE, 0)
@@ -51,9 +58,11 @@ def run_receipt(rec: Receipt) -> dict:
     }
 
 
-def run_split(receipts: list[Receipt]) -> list[dict]:
+def run_split(receipts: list[Receipt], tier1_input: str = "layout") -> list[dict]:
     # OCR first (CPU-bound, one engine), then the API calls in parallel.
     for r in receipts:
         ocr_text(r.image_bytes, r.image_sha256)
+        if tier1_input == "layout":
+            ocr_layout_text(r.image_bytes, r.image_sha256)
     with ThreadPoolExecutor(max_workers=8) as pool:
-        return list(pool.map(run_receipt, receipts))
+        return list(pool.map(lambda r: run_receipt(r, tier1_input), receipts))

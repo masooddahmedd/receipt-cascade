@@ -1,0 +1,94 @@
+{
+ "receipt_id": "test-041",
+ "image_sha256": "994b983a7f51670ca67b35bbaf9a11c8852abf1711651448d4ce39f8f8119d6f",
+ "overall_confidence": 0.7341,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Chicken Maryland",
+     "quantity": 1,
+     "price": "47619.00"
+    },
+    {
+     "name": "Cappucino (Hot/Iced)",
+     "quantity": 1,
+     "price": "30303.00"
+    },
+    {
+     "name": "Naga Lychee Juice",
+     "quantity": 1,
+     "price": "34632.00"
+    },
+    {
+     "name": "Cafe Latte",
+     "quantity": 1,
+     "price": "30303.00"
+    },
+    {
+     "name": "Hot Chocolate Marshmallo",
+     "quantity": 1,
+     "price": "30303.00"
+    },
+    {
+     "name": "Chicken Cesar Salad",
+     "quantity": 1,
+     "price": "43290.00"
+    },
+    {
+     "name": "Mineral Water",
+     "quantity": 1,
+     "price": "12987.00"
+    },
+    {
+     "name": "Mineral Water",
+     "quantity": 1,
+     "price": "12987.00"
+    },
+    {
+     "name": "Lychee/Peach/Lemon/Mango",
+     "quantity": 1,
+     "price": "25974.00"
+    },
+    {
+     "name": "Chicken Maryland",
+     "quantity": 1,
+     "price": "47619.00"
+    }
+   ],
+   "confidence": 0.9311,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "316017.00",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "48982.66",
+   "confidence": 0.7341,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "365000.00",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

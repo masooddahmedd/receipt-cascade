@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "ICE BLACKCOFFE", "quantity": 1, "price": "82,000"}, {"name": "AVUCADO COFFEE", "quantity": 1, "price": "61,000"}, {"name": "CHIKEN KATSU FF", "quantity": 1, "price": "51.000"}], "subtotal": "194,000", "tax": "19,400", "total": "174,600"}, "usage": {"in": 372, "out": 88, "seconds": 2.52}}

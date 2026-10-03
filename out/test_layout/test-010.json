@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-010",
+ "image_sha256": "2a5d18c199bdbb75010a54430429cf694b35bdca8bf560d1d0db1fbb090dedb8",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "CINNAMONSUGAR",
+     "quantity": 17,
+     "price": "17,000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "17.000",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "17.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "@AuntieAnnes",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

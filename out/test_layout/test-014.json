@@ -1,0 +1,74 @@
+{
+ "receipt_id": "test-014",
+ "image_sha256": "9dcf1f9f86c909b762767cb07d1cc0db30773d556154ce42e0210f65270ee39d",
+ "overall_confidence": 0.4034,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "RedVelvet Cheese Slc",
+     "quantity": 1,
+     "price": "38,000"
+    },
+    {
+     "name": "Chicken Baked Rice",
+     "quantity": 1,
+     "price": "55,000"
+    },
+    {
+     "name": "Fish n Chips",
+     "quantity": 1,
+     "price": "65,000"
+    },
+    {
+     "name": "Mushroom Soup",
+     "quantity": 1,
+     "price": "25,000"
+    },
+    {
+     "name": "Chamomile",
+     "quantity": 1,
+     "price": "23,000"
+    },
+    {
+     "name": "Iced Tea",
+     "quantity": 1,
+     "price": "32,000"
+    }
+   ],
+   "confidence": 0.6825,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "238,000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.4034,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "281,435",
+   "confidence": 0.5211,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

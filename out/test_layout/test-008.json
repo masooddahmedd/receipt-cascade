@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-008",
+ "image_sha256": "58716693a6c0733358e66e64d7064a5a845424280bb55f9b5fa137b1af8c92fe",
+ "overall_confidence": 0.844,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "[REG] BLACK SAKURA",
+     "quantity": 1,
+     "price": "45,455"
+    },
+    {
+     "name": "COOKIE DOH SAUCES",
+     "quantity": 1,
+     "price": "0"
+    },
+    {
+     "name": "NATA DE COCO",
+     "quantity": 1,
+     "price": "0"
+    }
+   ],
+   "confidence": 0.844,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "45.455",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "4,545",
+   "confidence": 0.9509,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "50.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

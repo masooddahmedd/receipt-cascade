@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-093",
+ "image_sha256": "fa9b5f2a3fd62199e328487d1b7408d6f57846083b2efb082492fc9113321af4",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "THAT ICED TEA (L)",
+     "quantity": 1,
+     "price": "16,363"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "16363",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "1,636",
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "17,999",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

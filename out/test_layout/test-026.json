@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-026",
+ "image_sha256": "ca18f6b8a3b43f3d5b916d382fe2f8e482e318c023884dca8dca3ecc1ab5d562",
+ "overall_confidence": 0.7013,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Nasi Cap Cay Porsi Besar",
+     "quantity": 1,
+     "price": "65.000"
+    },
+    {
+     "name": "Teh Tawar",
+     "quantity": 2,
+     "price": "4.000"
+    },
+    {
+     "name": "Fu Yung Hai",
+     "quantity": 1,
+     "price": "65.000"
+    }
+   ],
+   "confidence": 0.7013,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "Rp138.000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "Rp138.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "Bakmi Bangka",
+   "confidence": 0.6316,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

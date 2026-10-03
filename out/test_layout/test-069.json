@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-069",
+ "image_sha256": "c9a3e92bfd1cfd408bee1695517066e5cbd4bb100d43a10fd1cb4462c30e5fb1",
+ "overall_confidence": 0.5651,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "[MD] SOFT MORNING ROLL",
+     "quantity": 1,
+     "price": "18,000"
+    },
+    {
+     "name": "REAL HONEY PANCAKE BREAD",
+     "quantity": 2,
+     "price": "20,000"
+    },
+    {
+     "name": "CUSTARD BRIOCHE",
+     "quantity": 4,
+     "price": "36,000"
+    }
+   ],
+   "confidence": 0.7113,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "74,000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": "23/3/2017",
+   "confidence": 0.6316,
+   "tier": 2,
+   "status": "accepted"
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-081",
+ "image_sha256": "1a4f42860f78a058e3df460125ed3904e1e918ac5914414b7c19455b6e94d4fa",
+ "overall_confidence": 0.5651,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Kyoto Choco Mochi",
+     "quantity": 2,
+     "price": "28.000"
+    },
+    {
+     "name": "Choco Bun",
+     "quantity": 1,
+     "price": "22.000"
+    },
+    {
+     "name": "Plastic Bag Small",
+     "quantity": 1,
+     "price": "0"
+    }
+   ],
+   "confidence": 0.7275,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "50.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

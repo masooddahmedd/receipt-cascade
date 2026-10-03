@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-090",
+ "image_sha256": "ccff186ccabcd127b9ce54bb470c8a060abaaaea6db0de0c8493bc05e80ceec4",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "CIRENG PANDAWA",
+     "quantity": 1,
+     "price": "26,818"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "26,818",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "2,681",
+   "confidence": 0.8162,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "29,500",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

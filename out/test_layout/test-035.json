@@ -1,0 +1,64 @@
+{
+ "receipt_id": "test-035",
+ "image_sha256": "453a4ad5aadf63b2a7efdfa0915d45fd72c426254ab8f7c84d5621d56445794c",
+ "overall_confidence": 0.5651,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "TWIST DONUT",
+     "quantity": 2,
+     "price": "18,000"
+    },
+    {
+     "name": "BANANA DONUT",
+     "quantity": 1,
+     "price": "11,000"
+    },
+    {
+     "name": "CREAMCHEESE BREAD",
+     "quantity": 1,
+     "price": "13,000"
+    },
+    {
+     "name": "FRANKFRUT SAUSAGE ROLL",
+     "quantity": 1,
+     "price": "12,000"
+    }
+   ],
+   "confidence": 0.7581,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": null,
+   "confidence": 0.5651,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "5000",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

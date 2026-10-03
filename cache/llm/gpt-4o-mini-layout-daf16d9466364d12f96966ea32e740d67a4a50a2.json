@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "HAZELNUT CHOCO MT \uff08R)", "quantity": 1, "price": "24,000"}, {"name": "PEARL(R\uff09", "quantity": 1, "price": "4,000"}, {"name": "HAZELNUT CHOCO MT (R)", "quantity": 1, "price": "24,000"}], "subtotal": "52000", "tax": null, "total": "52.000"}, "usage": {"in": 373, "out": 97, "seconds": 1.82}}

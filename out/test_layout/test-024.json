@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-024",
+ "image_sha256": "57989ab2c73a37b1c80d1774a07ed3e8adfbc1145566d3f7efb683c1bfe48824",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "Corn Flakes Cookies",
+     "quantity": 1,
+     "price": "Rp.56.000"
+    },
+    {
+     "name": "Chokoreto Cookies",
+     "quantity": 1,
+     "price": "Rp.62.000"
+    },
+    {
+     "name": "plastic Bag Medium",
+     "quantity": 1,
+     "price": "Rp.0"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "Rp.118.000",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "Rp.118.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

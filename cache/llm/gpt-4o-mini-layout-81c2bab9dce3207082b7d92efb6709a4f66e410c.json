@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "AIAM", "date": null, "line_items": [{"name": "Dum Dum Thai Coffee", "quantity": 1, "price": "19.000"}, {"name": "Ice", "quantity": 1, "price": "1.000"}], "subtotal": "20.000", "tax": null, "total": "20.000"}, "usage": {"in": 345, "out": 63, "seconds": 1.6}}

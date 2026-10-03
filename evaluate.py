@@ -230,7 +230,7 @@ def markdown_table(op: dict, t: float) -> str:
     return "\n".join(lines) + "\n"
 
 
-def plot(curves: dict, op: dict, t: float) -> None:
+def plot(curves: dict, op: dict, t: float, mode: str) -> None:
     fig, ax = plt.subplots(figsize=(7, 5))
     labels = {
         "tier1": "Tier 1 only (gated)",
@@ -258,12 +258,12 @@ def plot(curves: dict, op: dict, t: float) -> None:
     ax.grid(alpha=0.3)
     ax.legend()
     fig.tight_layout()
-    fig.savefig(ROOT / "curve.png", dpi=150)
+    fig.savefig(ROOT / f"curve_{mode}.png", dpi=150)
 
 
-def main(limit: int | None) -> None:
+def main(limit: int | None, mode: str) -> None:
     dev, test = load_split("dev")[:limit], load_split("test")[:limit]
-    dev_res, test_res = run_split(dev), run_split(test)
+    dev_res, test_res = run_split(dev, mode), run_split(test, mode)
     dev_rows, test_rows = build_rows(dev_res), build_rows(test_res)
 
     m1 = ConfidenceModel().fit([r["x1"] for r in dev_rows], [r["ok1"] for r in dev_rows])
@@ -323,11 +323,13 @@ def main(limit: int | None) -> None:
         ),
         "models": {"tier1": TIER1_MODEL, "tier2": TIER2_MODEL},
     }
-    (ROOT / "results.json").write_text(json.dumps({"summary": summary, "curves": curves}, indent=1))
-    (ROOT / "results_table.md").write_text(markdown_table(op, op_t), encoding="utf-8")
-    plot(curves, op, op_t)
-    write_receipt_json(test_res, op_t, "test")
-    print((ROOT / "results_table.md").read_text(encoding="utf-8"))
+    (ROOT / f"results_{mode}.json").write_text(
+        json.dumps({"summary": summary, "curves": curves}, indent=1)
+    )
+    (ROOT / f"results_table_{mode}.md").write_text(markdown_table(op, op_t), encoding="utf-8")
+    plot(curves, op, op_t, mode)
+    write_receipt_json(test_res, op_t, f"test_{mode}")
+    print((ROOT / f"results_table_{mode}.md").read_text(encoding="utf-8"))
     print(
         json.dumps(
             {
@@ -347,4 +349,6 @@ if __name__ == "__main__":
         default=None,
         help="use only the first N receipts per split (for a cheap smoke run)",
     )
-    main(ap.parse_args().limit)
+    ap.add_argument("--tier1-input", choices=["plain", "layout"], default="layout")
+    args = ap.parse_args()
+    main(args.limit, args.tier1_input)

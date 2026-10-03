@@ -1,0 +1,1 @@
+{"parsed": {"merchant": "A FUNG", "date": null, "line_items": [{"name": "BASO TAHU", "quantity": 1, "price": "43.636"}, {"name": "NAST PUTTH", "quantity": 1, "price": "6.000"}], "subtotal": "49.636", "tax": "4.964", "total": "54.600"}, "usage": {"in": 391, "out": 70, "seconds": 1.51}}

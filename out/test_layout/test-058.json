@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-058",
+ "image_sha256": "0f6a25eb66f3aac732d270cb3bfc6e89c4d435eccd9a343d380b1c7799253886",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "PHO RO TAI",
+     "quantity": 1,
+     "price": "55.000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "55.000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "5,500",
+   "confidence": 0.9509,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "60,500",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "PHO RO TAI",
+   "confidence": 0.9062,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

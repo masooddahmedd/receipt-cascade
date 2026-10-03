@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "S-Milk tea", "quantity": 1, "price": "17,000"}], "subtotal": "17,000", "tax": null, "total": "17,000"}, "usage": {"in": 343, "out": 47, "seconds": 1.49}}

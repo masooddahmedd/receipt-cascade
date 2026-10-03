@@ -1,0 +1,1 @@
+{"parsed": {"merchant": null, "date": null, "line_items": [{"name": "OSHINE MT(L)", "quantity": 1, "price": "24.000"}, {"name": "UCONUI JELLY (L)", "quantity": 1, "price": "4,000"}, {"name": "SUB TOIA", "quantity": 1, "price": "28,000"}], "subtotal": null, "tax": null, "total": "28.000"}, "usage": {"in": 364, "out": 84, "seconds": 1.72}}

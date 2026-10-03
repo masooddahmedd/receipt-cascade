@@ -1,0 +1,54 @@
+{
+ "receipt_id": "test-095",
+ "image_sha256": "2421927a28224bf7bf5b952e22640a53c13bef95b1b78ab49f4ff7a0e118ce6c",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "BASO TAHU",
+     "quantity": 1,
+     "price": "43,181"
+    },
+    {
+     "name": "ES JERUK",
+     "quantity": 1,
+     "price": "13,000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "56.181",
+   "confidence": 0.9751,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "5.618",
+   "confidence": 0.8162,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "61,799",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

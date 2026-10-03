@@ -1,0 +1,49 @@
+{
+ "receipt_id": "test-050",
+ "image_sha256": "2fbca7b3f73887475bb8c178eac690ff7af83ee90cac3d6e2a2e983d4aa38e85",
+ "overall_confidence": 0.5183,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "SpiPrite Caulurry",
+     "quantity": 1,
+     "price": "17,727"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "17,727",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": "1,773",
+   "confidence": 0.5183,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "19,500",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "receipt_id": "test-094",
+ "image_sha256": "428dff4d7fe1b8a2a89258d341229d313681aac84718885d3f225a0a8b0261a9",
+ "overall_confidence": 0.1921,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "TAHUGORENG",
+     "quantity": 1,
+     "price": "28,000"
+    },
+    {
+     "name": "CAKWE",
+     "quantity": 1,
+     "price": "17.000"
+    },
+    {
+     "name": "PHOTAI CHINIR)",
+     "quantity": 1,
+     "price": "63,000"
+    },
+    {
+     "name": "TEA",
+     "quantity": 1,
+     "price": "11,000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "119,000",
+   "confidence": 0.916,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.1921,
+   "tier": 2,
+   "status": "needs_review"
+  },
+  "total": {
+   "value": "140,063",
+   "confidence": 0.8779,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "VIETNAMES",
+   "confidence": 0.7888,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": null,
+   "confidence": 0.5186,
+   "tier": 2,
+   "status": "needs_review"
+  }
+ }
+}

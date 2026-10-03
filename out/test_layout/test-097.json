@@ -1,0 +1,59 @@
+{
+ "receipt_id": "test-097",
+ "image_sha256": "4c2016fa28f5a8e5b6acfd762928eb9da2d16777aebb7120216b7c8df4b52bb4",
+ "overall_confidence": 0.6593,
+ "fields": {
+  "line_items": {
+   "value": [
+    {
+     "name": "BUBUR GO",
+     "quantity": 1,
+     "price": "40.000"
+    },
+    {
+     "name": "PUYUH GO",
+     "quantity": 1,
+     "price": "6.000"
+    },
+    {
+     "name": "SATEZATIZGO",
+     "quantity": 1,
+     "price": "9.000"
+    }
+   ],
+   "confidence": 0.6593,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "subtotal": {
+   "value": "55.000",
+   "confidence": 0.9606,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "tax": {
+   "value": null,
+   "confidence": 0.7537,
+   "tier": 2,
+   "status": "accepted"
+  },
+  "total": {
+   "value": "55.000",
+   "confidence": 0.9627,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "merchant": {
+   "value": "PEIRLAYAN PAHNLRAN",
+   "confidence": 0.8572,
+   "tier": 1,
+   "status": "accepted"
+  },
+  "date": {
+   "value": "06/05/2019",
+   "confidence": 0.6316,
+   "tier": 2,
+   "status": "accepted"
+  }
+ }
+}
